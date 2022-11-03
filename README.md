@@ -8,10 +8,21 @@
 
 
 
-### Quick Start
-- go in main.py and change the path variable to whatever directory you want to check
+## Quick Start (For non Developers)
 
+- Download PlotChecker 
+
+- Open main.py and change the path variable to whatever directory you want to check
+  
+
+        path = "C://Users//Bob//Desktop//signa"
+
+- Run main.py by double clicking or pasting the below into a console (If you use a console, make sure the console is opened in the same directory)
+    
         python main.py
 
 
+### Quick Start for Developers
+   
+    git clone git@github.com:Balugrizzly/PlotChecker.git
 
