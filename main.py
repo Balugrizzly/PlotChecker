@@ -1,8 +1,12 @@
 import os
 
+print("Starting PlotChecker")
+
 # Get the list of all files and directories
 path = "/home/signum/"  # path to the directorie that contains the plots
 dir_list = os.listdir(path)
+
+print(f"Checking Plots in {path}")
 
 # Remove .plotting files from dir_list
 dir_list = filter(lambda s: not s.endswith(".plotting"), dir_list)
@@ -40,3 +44,6 @@ if not (
     or account_id_list.count(account_id_list[0]) == len(account_id_list)
 ):
     print("Not All Account IDs are the same")
+
+
+print("Finished! If you did not see any Error messages that means all is good!")
